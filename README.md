@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🩺 VitalSync — Personal Health Record & Symptom Tracker  
 
-**URL**: https://lovable.dev/projects/1df5a128-bb8c-4efa-9a29-407e738a7ca8
+**Smart. Secure. Simplified.**  
+Your health companion that helps you track symptoms, store records, and get intelligent insights — all in one place.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Overview  
+**VitalSync** is a secure, AI-assisted platform that empowers individuals to manage and analyze their personal health data efficiently.  
+Users can:
+- Upload & organize medical records (lab reports, prescriptions, etc.)
+- Track daily health logs & symptoms
+- Get AI-powered insights on trends or risks
+- Export health summaries for doctors
+- Maintain privacy through **role-based access**
 
-**Use Lovable**
+The system promotes **preventive healthcare** by helping users monitor patterns before they escalate into serious issues.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1df5a128-bb8c-4efa-9a29-407e738a7ca8) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧩 Core Features  
 
-**Use your preferred IDE**
+| Category | Feature | Description |
+|-----------|----------|-------------|
+| 📂 **Smart Record Management** | Upload, categorize, and view health documents easily. | Organize and access all your medical records — prescriptions, reports, and documents — from one dashboard. |
+| 💬 **Symptom Tracker** | Log daily symptoms and visualize progress. | Keep a digital diary of your health conditions and monitor improvements over time. |
+| 🤖 **AI Insights** | Detect trends or potential health anomalies. | Leverage AI-powered analytics to identify early warning patterns and health trends. |
+| 🔒 **Secure Access** | Role-based access for patients and doctors. | Ensure privacy through permission-based control for users and healthcare professionals. |
+| 📤 **Health Summary Export** | Generate shareable reports for consultations. | Export your complete health summary securely to share with medical experts. |
+| 🧠 **Privacy-First Design** | All data is encrypted and stored securely. | Implement robust encryption and security measures to protect sensitive health data. |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏗️ Tech Stack  
 
-Follow these steps:
+| Layer | Technologies Used |
+|--------|-------------------|
+| 🖥️ **Frontend** | React + TypeScript + Vite + TailwindCSS + ShadCN UI |
+| ⚙️ **Backend** | Supabase (Database + Auth + Edge Functions) |
+| 🤖 **AI Layer** | OpenAI / Deno Edge (for symptom analysis) |
+| ☁️ **Deployment** | GitHub + Render / Vercel |
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ⚙️ Local Setup (Developer Guide)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# Clone your team repo
+git clone https://github.com/Alisha-cloud/HTF25-Team-419.git
+cd HTF25-Team-419
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Create your .env file (add Supabase and API keys)
+cp .env.example .env
+
+# Run the app
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1df5a128-bb8c-4efa-9a29-407e738a7ca8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
