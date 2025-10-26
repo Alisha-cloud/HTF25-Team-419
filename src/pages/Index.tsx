@@ -86,7 +86,7 @@ const Index = () => {
 </section>
 
       {/* CTA Section */}
-      <section className="container mx-auto px-4 py-16 text-center">
+      {/* <section className="container mx-auto px-4 py-16 text-center">
         <div className="max-w-3xl mx-auto bg-card rounded-2xl shadow-card p-12 space-y-6">
           <h2 className="text-3xl font-bold">Ready to Take Control of Your Health?</h2>
           <p className="text-lg text-muted-foreground">
@@ -96,7 +96,47 @@ const Index = () => {
             Create Your Account
           </Button>
         </div>
-      </section>
+      </section> */}
+
+      <section className="relative py-20 bg-gradient-to-br from-accent/10 via-background to-background overflow-hidden">
+  <div className="container mx-auto px-6 text-center relative z-10">
+    <div className="max-w-3xl mx-auto bg-card rounded-3xl shadow-2xl p-10 sm:p-14 backdrop-blur-lg border border-border/40 space-y-6 transition-all hover:shadow-accent/30">
+      
+      <div className="flex justify-center">
+        <div className="w-16 h-16 rounded-full bg-gradient-to-r from-accent to-primary flex items-center justify-center animate-pulse">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-8 w-8 text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3" />
+          </svg>
+        </div>
+      </div>
+
+      <h2 className="text-4xl font-extrabold tracking-tight leading-tight text-foreground">
+        Take Control of Your Health Today 
+      </h2>
+
+      <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+        Join <span className="font-semibold text-accent">VitalSync</span> — your AI-powered health companion that helps you 
+        monitor, analyze, and improve your well-being with smart insights.
+      </p>
+
+      <Button
+        size="lg"
+        onClick={() => navigate("/auth")}
+        className="text-lg px-10 py-6 bg-gradient-to-r from-accent to-primary hover:opacity-90 transition-all rounded-xl"
+      >
+         Create Your Account
+      </Button>
+    </div>
+  </div>
+
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(56,189,248,0.15),transparent_60%)]"></div>
+</section>
 
       {/* Footer */}
       <footer className="border-t mt-20 py-8">
